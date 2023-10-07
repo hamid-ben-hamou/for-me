@@ -1,0 +1,44 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #eee;
+	font-family: sans-serif;
+	flex-direction: column;
+	gap: 20px;
+	padding: 0 15px;
+}
+
+.idea{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 5px 0px #ccc;
+	border-radius: 7px;
+	width: 100%;
+}
+
+.idea .add-one{
+	font-size: 60px;
+	text-align: center;
+	color: red;
+	cursor: pointer;
+}
+.idea .bad-idea h1{
+	margin-bottom: 15px;
+}
+.idea .bad-idea .total{
+	font-weight: bold;
+	font-size: 20px;
+	color: #5865f2;
+	transition: 0.3s;
+}
